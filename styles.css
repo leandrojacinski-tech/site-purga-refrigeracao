@@ -75,7 +75,6 @@
   --shadow-hero: rgba(0, 0, 0, 0.08);
 }
 
-
 /* =========================================================
    BASE
    ========================================================= */
@@ -105,6 +104,21 @@ iframe {
   max-width: 100%;
 }
 
+/* =========================================================
+   ELEMENTOS GLOBAIS
+   ========================================================= */
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
 
 /* =========================================================
    HEADER
@@ -147,7 +161,6 @@ iframe {
 
 .menu a {
   color: var(--color-bg-card);
-  text-decoration: none;
   font-size: 15px;
   transition: 0.25s ease;
 }
@@ -155,7 +168,6 @@ iframe {
 .menu a:hover {
   color: #d4d4d0;
 }
-
 
 /* =========================================================
    BOTÕES
@@ -168,7 +180,6 @@ iframe {
 
   padding: 14px 24px;
 
-  text-decoration: none;
   font-weight: 700;
 
   display: inline-block;
@@ -205,7 +216,6 @@ iframe {
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
 
-  text-decoration: none;
   display: inline-block;
   font-weight: 700;
 
@@ -220,7 +230,6 @@ iframe {
 
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
 }
-
 
 /* =========================================================
    HERO
@@ -288,7 +297,6 @@ iframe {
   flex-wrap: wrap;
   margin-top: 300px;
 }
-
 
 /* =========================================================
    HERO CAROUSEL
@@ -407,7 +415,6 @@ iframe {
   font-size: clamp(15px, 1.15vw, 18px);
 }
 
-
 /* =========================================================
    SLIDE 1
    ========================================================= */
@@ -452,7 +459,6 @@ iframe {
   color: #30302e;
 }
 
-
 /* =========================================================
    SLIDE 2
    ========================================================= */
@@ -473,7 +479,6 @@ iframe {
 .slide-2 .tag {
   color: #111111;
 }
-
 
 /* =========================================================
    HERO — EFEITOS
@@ -551,7 +556,6 @@ iframe {
   text-transform: uppercase;
 }
 
-
 /* =========================================================
    HERO — SLIDE SOMENTE IMAGEM
    ========================================================= */
@@ -574,7 +578,6 @@ iframe {
 
   display: block;
 }
-
 
 /* =========================================================
    CONTROLES DO CARROSSEL
@@ -671,7 +674,6 @@ iframe {
   transform: scale(1.12);
 }
 
-
 /* =========================================================
    FEATURES
    ========================================================= */
@@ -692,13 +694,11 @@ iframe {
 
   z-index: 2;
 
-  
+
 }
 
 .feature-card {
   position: relative;
-
-  text-decoration: none;
 
   padding: 32px;
 
@@ -804,7 +804,6 @@ iframe {
 
   text-transform: uppercase;
 }
-
 
 /* =========================================================
    PRODUTOS
@@ -1086,8 +1085,6 @@ iframe {
 
   text-align: center;
 
-  text-decoration: none;
-
   font-weight: 800;
 
   font-size: 13px;
@@ -1152,7 +1149,6 @@ iframe {
 
   border: 1px solid var(--color-primary);
 }
-
 
 /* =========================================================
    LOCALIZAÇÃO
@@ -1250,8 +1246,6 @@ iframe {
 
   border-radius: 8px;
 
-  text-decoration: none;
-
   font-weight: 700;
 
   transition: 0.25s ease;
@@ -1287,7 +1281,6 @@ iframe {
 
   border: none;
 }
-
 
 /* =========================================================
    FOOTER
@@ -1418,7 +1411,6 @@ iframe {
   font-size: 14px;
 }
 
-
 /* =========================================================
    WHATSAPP
    ========================================================= */
@@ -1447,8 +1439,6 @@ iframe {
 
   color: #ffffff;
 
-  text-decoration: none;
-
   box-shadow:
     0 12px 30px rgba(0, 0, 0, 0.25);
 
@@ -1469,7 +1459,6 @@ iframe {
 
   color: #1c1c1b;
 }
-
 
 /* =========================================================
    MENU HAMBÚRGUER
@@ -1523,7 +1512,6 @@ iframe {
     translateY(-8px)
     rotate(-45deg);
 }
-
 
 /* =========================================================
    PÁGINA INDIVIDUAL DO PRODUTO
@@ -1695,8 +1683,6 @@ iframe {
 
   padding: 16px 26px;
 
-  text-decoration: none;
-
   font-weight: 700;
 
   transition: 0.3s ease;
@@ -1727,7 +1713,6 @@ iframe {
 
   color: var(--color-bg-card);
 }
-
 
 /* =========================================================
    CONTEÚDO DO PRODUTO
@@ -1813,7 +1798,6 @@ iframe {
   top: 10px;
 }
 
-
 /* =========================================================
    CATÁLOGO
    ========================================================= */
@@ -1871,7 +1855,6 @@ iframe {
 
   line-height: 1.7;
 }
-
 
 /* =========================================================
    CATÁLOGO — SEÇÃO
@@ -1946,7 +1929,6 @@ iframe {
   color: var(--color-bg-card);
 }
 
-
 /* =========================================================
    CATÁLOGO — CARROSSEL
    ========================================================= */
@@ -1984,7 +1966,6 @@ iframe {
 .catalogo-carrossel::-webkit-scrollbar-thumb {
   background: var(--color-primary-soft);
 }
-
 
 /* =========================================================
    CATÁLOGO — CARD
@@ -2116,8 +2097,6 @@ iframe {
 
   text-align: center;
 
-  text-decoration: none;
-
   font-weight: 700;
 
   font-size: 14px;
@@ -2150,7 +2129,6 @@ iframe {
 
   color: var(--color-bg-card);
 }
-
 
 /* =========================================================
    RESPONSIVO — 1200px
@@ -2203,7 +2181,6 @@ iframe {
     font-size: 50px;
   }
 }
-
 
 /* =========================================================
    RESPONSIVO — 1024px
@@ -2327,7 +2304,6 @@ iframe {
   }
 }
 
-
 /* =========================================================
    RESPONSIVO — 900px
    ========================================================= */
@@ -2399,7 +2375,6 @@ iframe {
     color: #ffffff;
   }
 
-
   /* =========================================================
      HERO
      ========================================================= */
@@ -2452,7 +2427,6 @@ iframe {
     order: 5;
     width: 100%;
   }
-
 
   /* =========================================================
      HERO CAROUSEL
@@ -2526,7 +2500,6 @@ iframe {
     bottom: 18px;
   }
 
-
   /* =========================================================
      HERO MOBILE - SLIDE 1
      ========================================================= */
@@ -2551,7 +2524,6 @@ iframe {
   box-shadow: none !important;
 }
 
-
 /* Texto branco com sombra forte */
 .hero-carousel .slide-1 .hero-text,
 .hero-carousel .slide-1 .hero-text h1,
@@ -2565,13 +2537,11 @@ iframe {
     0 16px 32px rgba(0, 0, 0, 0.50);
 }
 
-
 /* Tag */
 .hero-carousel .slide-1 .tag {
   border-color: rgba(255, 255, 255, 0.35);
   background: rgba(0, 0, 0, 0.18);
 }
-
 
 /* Botão principal */
 .hero-carousel .slide-1 .btn-primary {
@@ -2579,7 +2549,6 @@ iframe {
   color: #111111;
   border-color: #ffffff;
 }
-
 
 /* Botão secundário */
 .hero-carousel .slide-1 .btn-secondary {
@@ -2592,7 +2561,6 @@ iframe {
   background: #ffffff;
   color: #111111;
 }
-
 
   /* =========================================================
      FEATURES
@@ -2617,7 +2585,6 @@ iframe {
     border-color:
       rgba(35, 35, 32, 0.14);
   }
-
 
   /* =========================================================
      PRODUCTS
@@ -2644,7 +2611,6 @@ iframe {
     margin: 0 auto;
   }
 
-
   /* =========================================================
      LOCALIZAÇÃO
      ========================================================= */
@@ -2669,7 +2635,6 @@ iframe {
     height: 340px;
   }
 
-
   /* =========================================================
      FOOTER
      ========================================================= */
@@ -2689,7 +2654,6 @@ iframe {
   .footer-social {
     min-width: 100%;
   }
-
 
   /* =========================================================
      PRODUTO
@@ -2735,7 +2699,6 @@ iframe {
   .produto-conteudo-container {
     grid-template-columns: 1fr;
   }
-
 
   /* =========================================================
      CATÁLOGO
@@ -2839,7 +2802,6 @@ iframe {
     height: 31px;
   }
 
-
   /* Catálogo */
 
   .catalogo-hero {
@@ -2885,7 +2847,6 @@ iframe {
   }
 }
 
-
 /* =========================================================
    RESPONSIVO — 600px
    ========================================================= */
@@ -2903,7 +2864,6 @@ iframe {
   .logo img {
     width: 88px;
   }
-
 
   /* Hero */
 
@@ -2935,7 +2895,6 @@ iframe {
 
     text-align: center;
   }
-
 
   /* Hero Carousel */
 
@@ -2990,7 +2949,6 @@ iframe {
       center;
   }
 
-
   /* Features */
 
   .features {
@@ -3012,7 +2970,6 @@ iframe {
     box-shadow:
       0 12px 28px rgba(0, 0, 0, 0.07);
   }
-
 
   /* Products */
 
@@ -3079,7 +3036,6 @@ iframe {
       );
   }
 
-
   /* Localização */
 
   .localizacao {
@@ -3130,7 +3086,6 @@ iframe {
     border-radius: 14px;
   }
 
-
   /* Footer */
 
   .footer-container {
@@ -3164,7 +3119,6 @@ iframe {
     line-height: 1.5;
   }
 
-
   /* WhatsApp */
 
   .whatsapp-float {
@@ -3181,7 +3135,6 @@ iframe {
 
     height: 29px;
   }
-
 
   /* Produto */
 
@@ -3241,7 +3194,6 @@ iframe {
   .produto-bloco h2 {
     font-size: 24px;
   }
-
 
   /* Catálogo */
 
@@ -3304,7 +3256,6 @@ iframe {
     width: 100%;
   }
 }
-
 
 /* =========================================================
    RESPONSIVO — 480px
@@ -3389,7 +3340,6 @@ iframe {
   }
 }
 
-
 /* =========================================================
    RESPONSIVO — 380px
    ========================================================= */
@@ -3434,7 +3384,6 @@ iframe {
   }
 }
 
-
 /* =========================================================
    RESPONSIVO — 360px
    ========================================================= */
@@ -3476,7 +3425,6 @@ iframe {
       );
   }
 }
-
 
 /* =========================================================
    PRODUTO — RESPONSIVO EXTRA
