@@ -1713,6 +1713,11 @@ select {
 
   color: var(--color-bg-card);
 }
+.catalogo-card-img img.geladeira75l {
+  width: 150px;
+  max-width: 150px;
+  height: auto;
+}
 
 /* =========================================================
    CONTEÚDO DO PRODUTO
