@@ -1718,7 +1718,12 @@ select {
   max-width: 150px;
   height: auto;
 }
-
+.telefone {
+    font-family: 'Oxanium', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+}
 /* =========================================================
    CONTEÚDO DO PRODUTO
    ========================================================= */
@@ -2660,6 +2665,7 @@ select {
     min-width: 100%;
   }
 
+
   /* =========================================================
      PRODUTO
      ========================================================= */
@@ -2856,6 +2862,9 @@ select {
     width: auto;
     object-fit: contain;
   }
+   .telefone {
+        font-size: 18px !important;
+    }
 }
 
 /* =========================================================
